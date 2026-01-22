@@ -36,4 +36,3 @@ if __name__ == "__main__":
 
     checkout.set_strategy(PercentageDiscount(20))
     print("20% discount:", checkout.total(100))
-    
